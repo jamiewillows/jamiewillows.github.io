@@ -1,0 +1,196 @@
+/**********************************
+GENERAL
+***********************************/
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	line-height: 1.6em;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+h1 {
+	font-family: 'Karla', sans-serif;
+	margin: 15px 0;
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	margin: 0 0 1em 0;
+	font-size: 2.6em;
+	font-weight: normal;
+	line-height: 0.9em;
+
+}
+
+h4 {
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+
+}
+
+p {
+	font-size: 1em;
+}
+
+#image {
+	width:  100%;
+	display: block;
+	float: left;
+	margin-top: 10%;
+}
+
+
+#primary {
+	border-top: 1px solid white;
+	margin-bottom: 50px;
+
+}
+
+#secondary {
+		border-top: 1px solid white;
+	}
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #333;
+}
+
+/* Social icons to be added
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+*/
+
+.copywrite { 
+	font-family: 'Karla', sans-serif;
+	color: #999;
+
+}
+
+
+/**********************************
+CONTACT STYLES
+***********************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.svg');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail4.svg');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter3.svg');
+}
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body*/
+body {
+	background-color: black;
+	color: #999;
+}
+
+h3 {
+	color: #fff;
+}
+
+/* header */
+header {
+	background-color: #999;
+	border-color: #fff;
+}
+
+
+/* logo text*/
+h1, h2 {
+	color: #fff;
+}
+
+/* nav links*/
+nav a, nav a:visited {
+	color:#fff;
+}
+
+
+/* nav link selected*/
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
