@@ -73,6 +73,7 @@ p {
 
 #primary {
 	border-top: 1px solid white;
+	margin-top: 50px
 	margin-bottom: 50px;
 
 }
@@ -170,7 +171,7 @@ COLORS
 /* site body*/
 body {
 	background-color: black;
-	color: #999;
+	color: #888;
 }
 
 h3 {
